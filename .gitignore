@@ -1,4 +1,7 @@
 /*tmp
 /build
 /.nb-gradle/
-
+.classpath
+.project
+.settings/
+bin/
