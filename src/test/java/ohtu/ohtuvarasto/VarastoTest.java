@@ -131,7 +131,7 @@ public class VarastoTest {
         Varasto alkuSaldollinenVarasto = new Varasto(10, 20);
         double saatuMaara = alkuSaldollinenVarasto.getSaldo();
         
-        assertEquals(10, saatuMaara, vertailuTarkkuus);    
+        assertEquals(9, saatuMaara, vertailuTarkkuus);    
     }
     
     @Test
