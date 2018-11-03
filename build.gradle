@@ -50,6 +50,11 @@ jacocoTestReport {
     }
 }
 
+checkstyle {
+  toolVersion = '6.10.1'
+  checkstyleTest.enabled = false
+}
+
 // Define the main class for the application
 mainClassName = 'main.Main'
 
